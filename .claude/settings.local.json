@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(ls c:/Users/dhruv/Portfolio/website-claude/*.ts)",
+      "Bash(ls c:/Users/dhruv/Portfolio/website-claude/*.html)",
+      "Bash(npm uninstall:*)",
+      "Bash(mv next.config.ts next.config.mjs)",
+      "Bash(echo \"/** @type {import\\(''next''\\).NextConfig} */:*)",
+      "Bash(npx next:*)",
+      "Bash(npx tsc:*)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(taskkill //F //IM node.exe)"
     ]
   }
 }

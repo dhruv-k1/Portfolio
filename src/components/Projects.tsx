@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion'
 import { useInView } from '../hooks/useInView'
-import SentimentAnim from './illustrations/SentimentAnim'
-import StockAnim from './illustrations/StockAnim'
+import SentimentColorful from './illustrations/SentimentColorful'
+import StockColorful from './illustrations/StockColorful'
 
 const projects = [
   {
-    Illustration: SentimentAnim,
+    Illustration: SentimentColorful,
     title: 'ML Model Comparison for Sentiment Analysis',
     period: 'Nov 2024',
     description:
@@ -19,7 +19,7 @@ const projects = [
     color: '#4f8ef7',
   },
   {
-    Illustration: StockAnim,
+    Illustration: StockColorful,
     title: 'Stock Sentiment Analysis using Machine Learning',
     period: 'Jun 2024',
     description:

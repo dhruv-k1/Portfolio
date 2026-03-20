@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion'
 import { useInView } from '../hooks/useInView'
 import { Trophy, Github, FileText, Zap, Mic } from 'lucide-react'
-import RecommendAnim from './illustrations/RecommendAnim'
-import RAGAnim from './illustrations/RAGAnim'
+import RecommendColorful from './illustrations/RecommendColorful'
+import RAGColorful from './illustrations/RAGColorful'
 
 const hackathons = [
   {
-    Illustration: RecommendAnim,
+    Illustration: RecommendColorful,
     icon: Trophy,
     badge: '🥇 1st Place Nationwide',
     badgeColor: '#f5c518',
@@ -26,7 +26,7 @@ const hackathons = [
     report: 'https://shorturl.at/DSJi6',
   },
   {
-    Illustration: RAGAnim,
+    Illustration: RAGColorful,
     icon: Mic,
     badge: 'IIT Roorkee Tech Fest',
     badgeColor: '#4f8ef7',

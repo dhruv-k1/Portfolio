@@ -7,7 +7,11 @@ const achievements = [
   { icon: Trophy, label: "AIR 1908", sub: "JEE Mains 2022" },
   { icon: Star, label: "#1 Nationwide", sub: "WWT Unravel 2025" },
   { icon: GraduationCap, label: "8.51 CGPA", sub: "IIT Roorkee" },
-  { icon: Briefcase, label: "AmEx Day 1", sub: "Data Science · Campus Placement" },
+  {
+    icon: Briefcase,
+    label: "AmEx Day 1",
+    sub: "Data Science · Campus Placement",
+  },
 ];
 
 export default function About() {
@@ -120,7 +124,15 @@ export default function About() {
             <p
               style={{ color: "#8ba3c7", lineHeight: 1.8, fontSize: "0.97rem" }}
             >
-              Outside of code, I'm a part of the <strong style={{ color: "#e8f0fe" }}>IIT Roorkee Aquatics team</strong>, competing in swimming and water polo. I also secured a <strong style={{ color: "#4f8ef7" }}>Day 1 campus placement offer at American Express</strong> for a Data Science role.
+              Outside of code, I'm a part of the{" "}
+              <strong style={{ color: "#e8f0fe" }}>
+                IIT Roorkee Aquatics team
+              </strong>
+              , competing in swimming and water polo. I also secured a{" "}
+              <strong style={{ color: "#4f8ef7" }}>
+                Day 1 campus placement offer at American Express
+              </strong>{" "}
+              for a Data Science role.
             </p>
 
             <div
@@ -198,7 +210,7 @@ export default function About() {
               }}
             >
               <img
-                src="/dhruv.jpeg"
+                src="/Portfolio/dhruv.jpeg"
                 alt="Dhruv Khandelwal"
                 style={{
                   width: "100%",

@@ -6,7 +6,7 @@ import NeuralNetAnim from "./illustrations/NeuralNetAnim";
 const achievements = [
   { icon: Trophy, label: "AIR 1908", sub: "JEE Mains 2022" },
   { icon: Star, label: "#1 Nationwide", sub: "WWT Unravel 2025" },
-  { icon: GraduationCap, label: "8.51 CGPA", sub: "IIT Roorkee" },
+  { icon: GraduationCap, label: "8.5 CGPA", sub: "IIT Roorkee" },
   {
     icon: Briefcase,
     label: "AmEx Day 1",

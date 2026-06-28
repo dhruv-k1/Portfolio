@@ -101,11 +101,11 @@ export default function About() {
                 fontSize: "0.97rem",
               }}
             >
-              I'm a final-year B.Tech student at{" "}
-              <strong style={{ color: "#e8f0fe" }}>IIT Roorkee</strong>{" "}
-              (Production & Industrial Engineering) with a deep passion for
-              applied AI — specifically multi-agent systems, LLM orchestration,
-              and production-ready ML pipelines.
+              I recently graduated from{" "}
+              <strong style={{ color: "#e8f0fe" }}>IIT Roorkee</strong> with a B.Tech in
+              Production & Industrial Engineering. I have a deep passion for applied AI,
+              focusing particularly on multi-agent systems, LLM orchestration, and
+              production-ready ML pipelines.
             </p>
             <p
               style={{
@@ -115,20 +115,19 @@ export default function About() {
                 fontSize: "0.97rem",
               }}
             >
-              At <strong style={{ color: "#e8f0fe" }}>Delhivery</strong>, I
+              During my time at <strong style={{ color: "#e8f0fe" }}>Delhivery</strong>, I
               built an automated bill validation system using LangGraph + Gemini
-              2.0 agents that processes 300+ bills/month worth ₹10+ Lacs. I love
+              2.0 agents that handled 300+ bills/month worth ₹10+ Lacs. I love
               turning messy real-world problems into elegant, scalable AI
               solutions.
             </p>
             <p
               style={{ color: "#8ba3c7", lineHeight: 1.8, fontSize: "0.97rem" }}
             >
-              Outside of code, I'm a part of the{" "}
+              Outside of code, I was a part of the{" "}
               <strong style={{ color: "#e8f0fe" }}>
                 IIT Roorkee Aquatics team
-              </strong>
-              , competing in swimming and water polo. I also secured a{" "}
+              </strong>, competing in swimming and water polo. I also secured a{" "}
               <strong style={{ color: "#4f8ef7" }}>
                 Day 1 campus placement offer at American Express
               </strong>{" "}
